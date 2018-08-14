@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+#filesScanned {
+    height: 300px;
+    width: 100%;
+    overflow: auto;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    float: left;
+    white-space:nowrap;
+}
+
+#header {
+    font-family: Helvetica, Arial;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#left img {
+    width: 100%;
+    margin: 0;
+}
+
+#left {
+    min-height: 1px;
+}
+
+#left p {
+    text-align: center;
+}
+
+#scanButton {
+    display: block;
+    width: 100%;
+}
+
+#scannedButton button {
+    width: 50%;
+    float: left;
+}
+
+#serverData {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    font-family: 'Courier New';
+}
+
+.col {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-family: Helvetica, Arial;
+}
+
+.col p {
+    margin: 5px;
+}
